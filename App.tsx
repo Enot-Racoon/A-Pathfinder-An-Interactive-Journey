@@ -132,7 +132,7 @@ const App: React.FC = () => {
 
           <div className="bg-slate-900 rounded-2xl p-6 text-indigo-300 font-mono text-xs shadow-xl">
             <p className="text-slate-500">// В коде это выглядит так:</p>
-            <p><span className="text-white">openList.sort</span>((a, b) => a.f - b.f); <span className="text-slate-500">// Сортируем</span></p>
+            <p><span className="text-white">openList.sort</span>((a, b) =&gt; a.f - b.f); <span className="text-slate-500">// Сортируем</span></p>
             <p><span className="text-white">let current</span> = openList.shift(); <span className="text-slate-500">// Берем самую дешевую</span></p>
           </div>
         </Section>
